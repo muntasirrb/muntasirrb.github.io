@@ -1,8 +1,8 @@
 ---
 layout: about
-title: A B M Muntasir Rahman
+title: Muntasir Rahman
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Adjunct Lecturer at BRAC University
 
 profile:
   align: left
@@ -17,7 +17,7 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I am currently serving as a Contractual Lecturer in the Department of CSE at BRAC University, Dhaka. I teach CSE220: Data Structures and CSE330: Numerical Methods. My research interest lies in the field of Artificial Intelligence and Machine Learning. 
+I am currently serving as an Adjunct Lecturer in the Department of CSE at BRAC University, Dhaka. I teach CSE220: Data Structures and CSE330: Numerical Methods. My research interest lies in the field of Artificial Intelligence and Machine Learning. 
 
 I am also pursuing MSc in Computer Science and Engineering at BRAC University. Previously, I've worked as a Lecturer in the department of ITM at Daffodil International University. 
 
