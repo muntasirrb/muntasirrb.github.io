@@ -2,7 +2,7 @@
 layout: about
 title: Muntasir Rahman
 permalink: /
-subtitle: Adjunct Lecturer at BRAC University
+subtitle: Lecturer at BRAC University
 
 profile:
   align: left
@@ -17,10 +17,9 @@ news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
 ---
-I am currently serving as an Adjunct Lecturer in the Department of CSE at BRAC University, Dhaka. I teach CSE220: Data Structures and CSE330: Numerical Methods. My research interest lies in the field of Artificial Intelligence and Machine Learning. 
+I am currently serving as a Lecturer in the Department of CSE at BRAC University, Dhaka. I teach CSE220: Data Structures, CSE221: Algorithms and CSE330: Numerical Methods. My research interest lies in the field of Artificial Intelligence and Machine Learning. 
 
-I am also pursuing MSc in Computer Science and Engineering at BRAC University. Previously, I've worked as a Lecturer in the department of ITM at Daffodil International University. 
+I am also pursuing an MSc in Computer Science and Engineering at BRAC University. Previously, I've worked as a Lecturer in the department of ITM at Daffodil International University. 
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
 
 Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
