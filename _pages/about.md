@@ -9,7 +9,9 @@ profile:
   image: prof_pic.JPG
   image_circular: true # crops the image to make it circular
   more_info: >
+  <center>
     <p>Dhaka, Bangladesh</p>
+  </center>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
