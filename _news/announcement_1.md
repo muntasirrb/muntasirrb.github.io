@@ -5,4 +5,4 @@ inline: true
 related_posts: false
 ---
 
-Joined Daffodil International University as a Lecturer in ITM. 💫
+Joined Daffodil International University as a Lecturer in ITM.
