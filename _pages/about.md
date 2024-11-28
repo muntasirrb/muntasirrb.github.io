@@ -6,7 +6,7 @@ subtitle: Lecturer at BRAC University
 
 profile:
   align: right
-  image: profile_picture.JPG
+  image: profile_picture.jpg
   image_circular: true # crops the image to make it circular
   more_info: >
     <div style="text-align: center;">
