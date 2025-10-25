@@ -2696,3 +2696,8 @@ body.dark-mode {
 .dark-mode .email-style {
     color: #e0e0e0; /* Make email text light in dark mode */
 }
+
+body.dark-mode .social-btn.github {
+    background-color: #f0f6fc; /* A light, GitHub-style grey */
+    color: #121212 !important; /* Dark icon color for the light button */
+}
