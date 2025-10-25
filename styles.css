@@ -2708,6 +2708,6 @@ body.dark-mode .social-btn.github:hover {
     color: #121212 !important; /* Dark icon color for the light button */
 }
 
-.card .list-group-flush {
-    border-bottom: 1px solid var(--bs-card-border-color);
+.list-group-flush > .list-group-item:last-child {
+    border-bottom-width: 1px;
 }
