@@ -2711,3 +2711,19 @@ body.dark-mode .social-btn.github:hover {
 .list-group-flush > .list-group-item:last-child {
     border-bottom-width: 1px;
 }
+
+/* =============================================== */
+/* New Styles for Publication Status */
+/* =============================================== */
+
+.pub-status-dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.pub-status-dot.published { background-color: #28a745; } /* Green */
+.pub-status-dot.accepted { background-color: #20c997; }  /* Teal/Light Green */
+.pub-status-dot.review { background-color: #ffc107; }   /* Yellow */
