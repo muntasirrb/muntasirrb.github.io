@@ -2711,3 +2711,13 @@ body.dark-mode .social-btn.github:hover {
 .list-group-flush > .list-group-item:last-child {
     border-bottom-width: 1px;
 }
+
+/* Makes the metadata text (e.g., 'Journal Article', year) brighter */
+body.dark-mode .publication-meta span {
+    color: #a0a0a0 !important;
+}
+
+/* Makes the icons within the metadata brighter blue */
+body.dark-mode .publication-meta i {
+    color: #58a6ff !important;
+}
