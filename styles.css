@@ -2707,3 +2707,8 @@ body.dark-mode .social-btn.github:hover {
     background-color: #f0f6fc; /* A light, GitHub-style grey */
     color: #121212 !important; /* Dark icon color for the light button */
 }
+
+/* Ensures the last item in a flushed list always has a bottom border, fixing the missing line issue. */
+.list-group-flush > .list-group-item:last-child {
+    border-bottom-width: 1px;
+}
