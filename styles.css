@@ -2704,7 +2704,6 @@ body.dark-mode .social-btn.github {
 }
 
 body.dark-mode .social-btn.github:hover {
-    background-color: #f0f6fc; /* On hover, light background */
-    color: #121212 !important; /* Dark text/icon color */
-    border-color: #f0f6fc;
+    background-color: #f0f6fc; /* A light, GitHub-style grey */
+    color: #121212 !important; /* Dark icon color for the light button */
 }
