@@ -2561,3 +2561,108 @@ footer p {
     opacity: 1;
     filter: none;
 }
+
+/* =============================================== */
+/* Dark Mode Styles */
+/* =============================================== */
+
+/* The .dark-mode class is added to the body tag by JavaScript */
+body.dark-mode {
+    background-color: #121212;
+    color: #e0e0e0;
+}
+
+.dark-mode .navbar {
+    background-color: #1e1e1e;
+    box-shadow: 0 2px 4px rgba(0,0,0,.5);
+}
+
+.dark-mode .navbar-brand,
+.dark-mode .navbar-nav .nav-link {
+    color: #e0e0e0 !important;
+}
+
+.dark-mode .navbar-nav .nav-link:hover,
+.dark-mode .navbar-nav .nav-link.active {
+    color: #58a6ff !important; /* A brighter blue for dark mode */
+    border-bottom-color: #58a6ff;
+}
+
+.dark-mode .jumbotron {
+    background: linear-gradient(135deg, #1e1e1e 0%, #2a2a2a 100%);
+}
+
+.dark-mode h1, .dark-mode h2, .dark-mode h3, .dark-mode h4, .dark-mode h5, .dark-mode h6 {
+    color: #ffffff;
+}
+
+.dark-mode .section:nth-of-type(even) {
+    background-color: #1a1a1a;
+}
+
+.dark-mode .card,
+.dark-mode .timeline-content,
+.dark-mode .insight-card,
+.dark-mode .publication-item {
+    background-color: #2a2a2a;
+    box-shadow: 0 4px 15px rgba(0,0,0,.3);
+}
+
+.dark-mode .text-muted,
+.dark-mode .academic-info p,
+.dark-mode .project-details p,
+.dark-mode .publication-item .authors,
+.dark-mode .publication-item .venue,
+.dark-mode .card-text {
+    color: #a0a0a0 !important;
+}
+
+.dark-mode a {
+    color: #58a6ff;
+}
+
+.dark-mode a:hover {
+    color: #80baff;
+}
+
+.dark-mode .list-group-item {
+    background-color: transparent;
+    border-color: #444;
+}
+
+.dark-mode .timeline::after {
+    background-color: #58a6ff;
+}
+
+.dark-mode .timeline-item::after {
+    border-color: #58a6ff;
+    background-color: #121212;
+}
+
+.dark-mode .btn-outline-primary {
+    color: #58a6ff;
+    border-color: #58a6ff;
+}
+
+.dark-mode .btn-outline-primary:hover {
+    background-color: #58a6ff;
+    color: #fff;
+}
+
+.dark-mode footer {
+    background-color: #1e1e1e;
+    color: #a0a0a0;
+}
+
+.dark-mode footer .footer-link {
+    color: #58a6ff;
+}
+
+.dark-mode .theme-toggle-btn {
+    color: #e0e0e0;
+}
+
+.dark-mode .badge.bg-light {
+    background-color: #333 !important;
+    color: #e0e0e0 !important;
+}
