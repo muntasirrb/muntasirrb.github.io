@@ -2698,6 +2698,7 @@ body.dark-mode {
 }
 
 body.dark-mode .social-btn.github {
-    background-color: #f0f6fc; /* A light, GitHub-style grey */
-    color: #121212 !important; /* Dark icon color for the light button */
+    background-color: transparent;
+    border: 1px solid #888; /* A visible grey border */
+    color: #f0f6fc !important; /* Light text/icon color */
 }
