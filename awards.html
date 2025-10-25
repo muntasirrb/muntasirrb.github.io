@@ -29,6 +29,10 @@
                     <li class="nav-item"><a class="nav-link active" href="awards.html">Awards</a></li>
                     <li class="nav-item"><a class="nav-link" href="others.html">Others</a></li>
                 </ul>
+                <!-- Dark Mode Toggle Button -->
+                <button id="theme-toggle" class="btn theme-toggle-btn ms-2">
+                    <i class="fas fa-moon"></i>
+                </button>
             </div>
         </div>
     </nav>
@@ -316,5 +320,40 @@
             observer.observe(element);
         });
     </script>
+    
+<!-- Dark Mode Toggle & Persistence Script -->
+<script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+    const icon = themeToggle.querySelector('i');
+
+    // Function to apply the saved theme on page load
+    const applyTheme = () => {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark') {
+            body.classList.add('dark-mode');
+            icon.className = 'fas fa-sun';
+        } else {
+            body.classList.remove('dark-mode');
+            icon.className = 'fas fa-moon';
+        }
+    };
+
+    // Event listener for the toggle button
+    themeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+        // Save the theme preference to localStorage
+        if (body.classList.contains('dark-mode')) {
+            localStorage.setItem('theme', 'dark');
+            icon.className = 'fas fa-sun';
+        } else {
+            localStorage.setItem('theme', 'light');
+            icon.className = 'fas fa-moon';
+        }
+    });
+
+    // Apply the theme when the DOM is fully loaded
+    document.addEventListener('DOMContentLoaded', applyTheme);
+</script>
 </body>
 </html>
