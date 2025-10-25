@@ -2666,3 +2666,33 @@ body.dark-mode {
     background-color: #333 !important;
     color: #e0e0e0 !important;
 }
+
+.dark-mode .explore-card .project-tags .badge {
+    background: #58a6ff; /* Brighter blue for dark mode */
+    color: #121212; /* Dark text */
+}
+
+.dark-mode .explore-card .project-tags .badge:hover {
+    background: #80baff;
+}
+
+.dark-mode .reading-link:hover {
+    color: #80baff; /* Lighter blue on hover */
+}
+
+.dark-mode .reading-link p {
+    color: #a0a0a0; /* Lighter grey for description */
+}
+
+.dark-mode .paper-tags .tag {
+    background: #333;
+    color: #58a6ff;
+}
+
+.dark-mode .reading-item:hover {
+    background-color: #1e1e1e; /* A subtle dark hover effect */
+}
+
+.dark-mode .email-style {
+    color: #e0e0e0; /* Make email text light in dark mode */
+}
