@@ -2702,3 +2702,9 @@ body.dark-mode .social-btn.github {
     border: 1px solid #888; /* A visible grey border */
     color: #f0f6fc !important; /* Light text/icon color */
 }
+
+body.dark-mode .social-btn.github:hover {
+    background-color: #f0f6fc; /* On hover, light background */
+    color: #121212 !important; /* Dark text/icon color */
+    border-color: #f0f6fc;
+}
