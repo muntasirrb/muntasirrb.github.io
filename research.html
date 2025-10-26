@@ -3,18 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Md. Saiful Bari Siddiqui - Research</title>
-    <!-- CSS Links etc. (Same as index.html) -->
+    <title>M. S. B. Siddiqui - Research</title>
+    <!-- CSS Links etc. -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <!-- Navigation -->
+    <!-- Use the final navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-light fixed-top">
         <div class="container">
-            <a class="navbar-brand" href="index.html">MSBS</a>
+            <a class="navbar-brand" href="index.html">M. S. B. Siddiqui</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -25,8 +25,13 @@
                     <li class="nav-item"><a class="nav-link" href="publications.html">Publications</a></li>
                     <li class="nav-item"><a class="nav-link" href="teaching.html">Teaching</a></li>
                     <li class="nav-item"><a class="nav-link" href="experience.html">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="qualifications.html">Qualifications</a></li>
+                    <li class="nav-item"><a class="nav-link" href="qualifications.html">Credentials</a></li>
+                    <li class="nav-item"><a class="nav-link" href="awards.html">Awards</a></li>
+                    <li class="nav-item"><a class="nav-link" href="others.html">Others</a></li>
                 </ul>
+                <button id="theme-toggle" class="btn theme-toggle-btn ms-2">
+                    <i class="fas fa-moon"></i>
+                </button>
             </div>
         </div>
     </nav>
@@ -35,101 +40,160 @@
     <main>
         <section id="research" class="section fade-in">
             <div class="container">
-                <h2>Research Activities</h2>
+                <h2 class="mb-5">Research</h2>
+
+                <!-- Research Statement -->
+                <div class="card mb-5">
+                    <div class="card-body p-4">
+                        <h3 class="card-title text-center text-primary mb-3">Research Statement</h3>
+                        <p class="lead">My research is centered at the intersection of Machine Learning, Signal Processing, and Computer Vision, with a primary focus on developing robust, multi-modal intelligent systems. I am driven by the challenge of fusing information from disparate data sources to build models that are more accurate, generalizable, and interpretable than their unimodal counterparts.</p>
+                        <p>A significant portion of my work is dedicated to applications in the biomedical domain, including diagnostic imaging, bioinformatics, and the analysis of physiological signals. I am passionate about creating technologies that can lead to tangible improvements in healthcare. Concurrently, I explore the application of these computational methods to analyze complex socio-political systems, aiming to uncover data-driven insights into human behavior. My ultimate goal is to advance the frontier of multi-modal AI and apply it to solve meaningful, real-world problems through collaborative and open research.</p>
+                    </div>
+                </div>
 
                 <!-- Thesis Projects -->
-                <div class="mb-5">
-                    <h3 class="text-center mb-4">Thesis Projects</h3>
-                    <div class="row">
-                        <div class="col-lg-6 mb-4">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex justify-content-between align-items-center mb-3">
-                                        <span class="badge bg-primary">Masters Thesis (CSE)</span>
-                                        <small class="text-muted"><i class="fas fa-calendar-alt"></i> Oct '22 - Sep '24</small>
-                                    </div>
-                                    <h4 class="card-title">Divide2Conquer (D2C): A Study on Decentralized Overfitting Remediation</h4>
-                                    <p class="card-text">Investigated a decentralized approach for mitigating overfitting in deep learning models, enhancing generalization and robustness.</p>
-                                    <div class="project-details">
-                                        <p><i class="fas fa-user-tie"></i> Supervisor: Prof. Dr. Golam Rabiul Alam</p>
-                                        <p><i class="fas fa-university"></i> Institution: BRAC University</p>
-                                    </div>
-                                    <div class="publication-links mt-3 text-center">
-                                        <a href="https://dspace.bracu.ac.bd/xmlui/handle/10361/25324" class="btn btn-outline-primary btn-sm" target="_blank">Thesis Link</a>
-                                        <a href="https://doi.org/10.48550/arXiv.2411.15876" class="btn btn-outline-primary btn-sm" target="_blank">Preprint</a>
-                                        <a href="https://github.com/Saiful185/DUA-D2C" class="btn btn-outline-primary btn-sm" target="_blank">GitHub</a>
-                                    </div>
+                <h3 class="text-center mb-4">Thesis Projects</h3>
+                <div class="card mb-4">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex align-items-center justify-content-center p-3">
+                            <img src="DUA_D2C.png" class="img-fluid rounded" alt="D2C Project Image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title text-primary">An Extensive Study on D2C: Overfitting Remediation in Deep Learning Using a Decentralized Approach</h4>
+                                <p class="card-text"><small class="text-muted">M.Sc. in Computer Science and Engineering</small></p>
+                                <p>This thesis investigated a novel decentralized framework to mitigate overfitting in deep learning. By training simpler models on disjoint data subsets and employing an uncertainty-aware selection mechanism, the study demonstrates significant improvements in generalization, especially in data-heterogeneous environments.</p>
+                                <p><strong>Supervisor:</strong> Prof. Dr. Golam Rabiul Alam</p>
+                                <div>
+                                    <a href="https://dspace.bracu.ac.bd/xmlui/handle/10361/25324" class="btn btn-outline-primary btn-sm" target="_blank">Thesis Link</a>
+                                    <a href="https://arxiv.org/abs/2411.15876" class="btn btn-outline-primary btn-sm" target="_blank">Preprint</a>
+                                    <a href="https://github.com/Saiful185/DUA-D2C" class="btn btn-outline-primary btn-sm" target="_blank">GitHub</a>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 mb-4">
-                            <div class="card h-100">
-                                <div class="card-body">
-                                    <div class="d-flex justify-content-between align-items-center mb-3">
-                                        <span class="badge bg-primary">Masters Thesis (EEE)</span>
-                                        <small class="text-muted"><i class="fas fa-calendar-alt"></i> Sep '22 - Current</small>
-                                    </div>
-                                    <h4 class="card-title">S³F-Net: A Multi-Modal Approach to Medical Image Classification</h4>
-                                    <p class="card-text">Developed a novel Spatial-Spectral Summarizer Fusion Network for improved medical image classification using multi-modal data.</p>
-                                    <div class="project-details">
-                                        <p><i class="fas fa-user-tie"></i> Supervisor: Prof. Dr. Mohammed Imamul Hassan Bhuiyan</p>
-                                        <p><i class="fas fa-university"></i> Institution: BUET</p>
-                                    </div>
-                                    <div class="publication-links mt-3 text-center">
-                                        <a href="https://doi.org/10.48550/arXiv.2509.23442" class="btn btn-outline-primary btn-sm" target="_blank">Preprint</a>
-                                        <a href="https://github.com/Saiful185/S3F-Net" class="btn btn-outline-primary btn-sm" target="_blank">GitHub</a>
-                                    </div>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                     <div class="row g-0">
+                        <div class="col-md-4 d-flex align-items-center justify-content-center p-3">
+                            <img src="S3FNet_SN1.png" class="img-fluid rounded" alt="S3F-Net Project Image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title text-primary">A DUAL-DOMAIN APPROACH TO MEDICAL IMAGE SEGMENTATION & CLASSIFICATION BASED ON SPATIAL AND SPECTRAL SUMMARIZER NETWORK FUSION</h4>
+                                <p class="card-text"><small class="text-muted">M.Sc. in Electrical and Electronic Engineering</small></p>
+                                <p>This research introduces S³F-Net, a novel multi-modal architecture that leverages Vision Transformers to fuse spatial and spectral information from medical images, leading to more accurate and robust classification and segmentation of anomalies like brain tumors.</p>
+                                <p><strong>Supervisor:</strong> Prof. Dr. Mohammed Imamul Hassan Bhuiyan</p>
+                                <div>
+                                    <a href="https://arxiv.org/abs/2509.23442" class="btn btn-outline-primary btn-sm" target="_blank">Preprint</a>
+                                    <a href="https://github.com/Saiful185/S3F-Net" class="btn btn-outline-primary btn-sm" target="_blank">GitHub</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-5">
+                     <div class="row g-0">
+                        <div class="col-md-4 d-flex align-items-center justify-content-center p-3">
+                            <img src="BRL_RF.JPG" class="img-fluid rounded" alt="BRL Project Image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title text-primary">Bioradiolocation-Based Multi-Class Sleep Stage Classification</h4>
+                                <p class="card-text"><small class="text-muted">B.Sc. in Electrical and Electronic Engineering</small></p>
+                                <p>The undergraduate thesis focused on a non-invasive sleep stage classification method using bioradiolocation signals. By extracting time-frequency features and employing a Random Forest classifier, the system achieved high accuracy comparable to state-of-the-art methods.</p>
+                                <p><strong>Supervisor:</strong> Prof. Dr. Mohammed Imamul Hassan Bhuiyan</p>
+                                <div>
+                                    <a href="https://doi.org/10.1109/ICECE57408.2022.10089093" class="btn btn-outline-primary btn-sm" target="_blank">View Paper</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
 
-                <!-- Research Experience -->
-                <div class="mb-5">
-                    <h3 class="text-center mb-4">Research Experience</h3>
-                    <div class="card">
-                        <div class="card-body">
-                             <h4>Research Assistant</h4>
-                             <h5>Center for Computational and Data Sciences (CCDS), IUB</h5>
-                             <small class="text-muted"><i class="fas fa-calendar-alt"></i> Feb '22 - Aug '22</small>
-                             <ul>
-                                <li>Investigated ML-based methods of Fetal ECG Separation in collaboration with Griffith University, Australia.</li>
-                                <li>Worked as a part of the "Graph Neural Networks" study group.</li>
-                             </ul>
+                <!-- Ongoing Research Projects -->
+                <h3 class="text-center mb-4">Ongoing Research Projects</h3>
+                <div class="card mb-4">
+                     <div class="row g-0">
+                        <div class="col-md-4 d-flex align-items-center justify-content-center p-3">
+                            <img src="July_Revolution.JPG" class="img-fluid rounded" alt="July Revolution Project Image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title text-primary">Repression and Mobilization Analysis in Bangladesh</h4>
+                                <p>A collaborative project with a Ph.D. student from the University of Oxford, this research applies ML and statistical modeling to analyze the dynamics of state repression and citizen mobilization during Bangladesh's July Revolution. One paper from this work is already under review.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex align-items-center justify-content-center p-3">
+                            <img src="AudioFuse.png" class="img-fluid rounded" alt="AudioFuse Project Image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title text-primary">Multi-Modal Fusion for Biomedical Audio Analysis (AudioFuse)</h4>
+                                <p>As part of our BIOML (Bioinformatics, Imaging & Omics using Machine Learning) lab, this project explores advanced fusion techniques for biomedical audio signals. The research aims to combine different signal representations, including waveforms, spectrograms, and scalograms, to build more robust diagnostic models. One paper from this research is currently under review.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card mb-5">
+                    <div class="row g-0">
+                        <div class="col-md-4 d-flex align-items-center justify-content-center p-3">
+                            <img src="AMR.JPG" class="img-fluid rounded" alt="AMR Project Image">
+                        </div>
+                        <div class="col-md-8">
+                            <div class="card-body">
+                                <h4 class="card-title text-primary">Advanced Fusion Methods for Antimicrobial Resistance (AMR) Prediction</h4>
+                                <p>Also part of the BIOML lab, this research builds upon our accepted paper on AMR prediction. The current focus is on investigating sophisticated feature fusion approaches to improve predictive accuracy, moving beyond the soft-voting ensemble methods used previously.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
                 
-                <!-- Research Grants -->
-                <div class="mb-5">
-                    <h3 class="text-center mb-4">Research Grants</h3>
-                    <div class="card">
-                        <div class="card-body">
-                            <h4>Co-Principal Investigator</h4>
-                            <h5>UIU Research Grant - Institute for Advanced Research (IAR), UIU</h5>
-                             <small class="text-muted"><i class="fas fa-calendar-alt"></i> July 2023 – December 2025</small>
-                            <p class="mt-2"><strong>Project:</strong> “Training Sets vs Training Subsets: Another Method to Reduce Overfitting?”</p>
-                            <p><strong>Total Awarded:</strong> BDT 4,90,000</p>
-                            <p><strong>Grant ID:</strong> UIU-IAR-02-2022-SE-06</p>
-                        </div>
+                <!-- Research Experience and Grants -->
+                <h3 class="text-center mb-4">Research Experience & Grants</h3>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h4 class="card-title text-primary">Co-founder & Researcher</h4>
+                        <p class="mb-2"><strong>BIOML (Bioinformatics, Imaging & Omics using Machine Learning) Lab</strong> | <span class="text-muted">2025 - Present</span></p>
+                        <p>Co-founded a collaborative research group of young researchers from Bangladesh to focus on ML applications in bioinformatics and biomedical imaging.</p>
+                        <a href="#" class="btn btn-outline-primary btn-sm disabled" aria-disabled="true">Homepage (Coming Soon)</a>
+                    </div>
+                </div>
+                <div class="card mb-3">
+                    <div class="card-body">
+                        <h4 class="card-title text-primary">Research Assistant</h4>
+                        <p class="mb-2"><strong>Center for Computational and Data Sciences (CCDS), IUB</strong> | <span class="text-muted">Feb 2022 - Aug 2022</span></p>
+                        <p>Investigated ML-based methods of Fetal ECG Separation and contributed to a Graph Neural Networks study group.</p>
+                        <a href="https://ccds.ai/" class="btn btn-outline-primary btn-sm" target="_blank">CCDS Homepage</a>
+                        <a href="https://drive.google.com/file/d/1JpWXlJMzJZzlKNcEYj8Ir-0FASWLbAyY/view?usp=sharing" class="btn btn-outline-primary btn-sm ms-2" target="_blank">Experience Certificate</a>
+                    </div>
+                </div>
+                <div class="card mb-5">
+                    <div class="card-body">
+                        <h4 class="card-title text-primary">Co-Principal Investigator</h4>
+                        <p class="mb-2"><strong>UIU Research Grant, Institute for Advanced Research (IAR)</strong> | <span class="text-muted">July 2023 – Dec 2025</span></p>
+                        <p>Awarded a grant of BDT 4,90,000 for the project titled: “Training Sets vs Training Subsets: Another Method to Reduce Overfitting?”</p>
+                        <a href="https://iar.uiu.ac.bd/" class="btn btn-outline-primary btn-sm" target="_blank">IAR Homepage</a>
                     </div>
                 </div>
 
-                <!-- Mentorship -->
-                <div>
-                    <h3 class="text-center mb-4">Mentorship and Supervision</h3>
-                    <div class="card">
-                        <div class="card-body">
-                            <p>Supervised/Supervising 72 students for their undergraduate dissertations, till October 2025. Most of the groups are focusing on the fields of Medical Imaging, Bioinformatics, and Health Informatics.</p>
-                            <hr>
-                            <h5>Example Supervised Project:</h5>
-                            <h4 class="card-title mt-3">Fusion-Based Multimodal Deep Learning to Improve Detection of Diabetic Retinopathy</h4>
-                            <p class="card-text">Integrating retinal imaging, clinical data and systemic biomarkers to enhance disease detection.</p>
-                            <div class="project-details">
-                                <p><i class="fas fa-user-tie"></i> Supervisors: Dr. Jannatun Nur Mukta, Md. Saiful Bari Siddiqui</p>
-                                <p><i class="fas fa-calendar-alt"></i> Jan '25 - Oct '25</p>
-                            </div>
+                <!-- Mentorship and Supervision -->
+                <h3 class="text-center mb-4">Mentorship and Supervision</h3>
+                <div class="card">
+                     <div class="card-body">
+                        <p>Supervised or currently supervising 72 students for their undergraduate dissertations, primarily in the fields of Medical Imaging, Bioinformatics, and Health Informatics.</p>
+                        <hr>
+                        <h5 class="mt-3">Example Supervised Project:</h5>
+                        <h4 class="card-title mt-2">Fusion-Based Multimodal Deep Learning to Improve Detection of Diabetic Retinopathy</h4>
+                        <p class="card-text">Integrating retinal imaging, clinical data and systemic biomarkers to enhance disease detection.</p>
+                        <div class="project-details">
+                            <p><i class="fas fa-user-tie"></i> Supervisors: Dr. Jannatun Nur Mukta, Md. Saiful Bari Siddiqui</p>
+                            <p><i class="fas fa-calendar-alt"></i> Jan '25 - Oct '25</p>
+                            <a href="#" class="btn btn-outline-primary btn-sm disabled mt-2" aria-disabled="true">Thesis Link (In Progress)</a>
                         </div>
                     </div>
                 </div>
@@ -190,5 +254,39 @@
             observer.observe(element);
         });
     </script>
+<!-- Dark Mode Toggle & Persistence Script -->
+<script>
+    const themeToggle = document.getElementById('theme-toggle');
+    const body = document.body;
+    const icon = themeToggle.querySelector('i');
+
+    // Function to apply the saved theme on page load
+    const applyTheme = () => {
+        const savedTheme = localStorage.getItem('theme');
+        if (savedTheme === 'dark') {
+            body.classList.add('dark-mode');
+            icon.className = 'fas fa-sun';
+        } else {
+            body.classList.remove('dark-mode');
+            icon.className = 'fas fa-moon';
+        }
+    };
+
+    // Event listener for the toggle button
+    themeToggle.addEventListener('click', () => {
+        body.classList.toggle('dark-mode');
+        // Save the theme preference to localStorage
+        if (body.classList.contains('dark-mode')) {
+            localStorage.setItem('theme', 'dark');
+            icon.className = 'fas fa-sun';
+        } else {
+            localStorage.setItem('theme', 'light');
+            icon.className = 'fas fa-moon';
+        }
+    });
+
+    // Apply the theme when the DOM is fully loaded
+    document.addEventListener('DOMContentLoaded', applyTheme);
+</script>
 </body>
 </html>
