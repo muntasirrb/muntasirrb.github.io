@@ -2722,14 +2722,14 @@ body.dark-mode .publication-meta i {
     color: #58a6ff !important;
 }
 
-body.dark-mode .publication-status .text-success {
+body.dark-mode .pub-status .text-success {
     color: #48c774 !important; /* Brighter Green */
 }
 
-body.dark-mode .publication-status .text-info {
+body.dark-mode .pub-status .text-info {
     color: #39c5bb !important; /* Brighter Teal for 'Accepted' */
 }
 
-body.dark-mode .publication-status .text-warning {
+body.dark-mode .pub-status .text-warning {
     color: #f0b400 !important; /* Brighter Gold/Yellow */
 }
