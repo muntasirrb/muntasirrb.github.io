@@ -2757,3 +2757,8 @@ body.dark-mode .btn-close {
 body.dark-mode .pub-status .text-warning {
     color: #f0b400 !important; /* Brighter Gold/Yellow */
 }
+
+/* This makes the blue card titles brighter and readable in dark mode */
+body.dark-mode .card-title.text-primary {
+    color: #58a6ff !important;
+}
