@@ -2825,3 +2825,14 @@ body.dark-mode .news-item .news-date { color: #a0a0a0; }
 body.dark-mode .university {
     color: #a0a0a0 !important;
 }
+
+/* =============================================== */
+/* Dark Mode Readability Fix for Dark Blue Text */
+/* =============================================== */
+
+/* This makes the degree title and the lead text in the 'About Me'
+   section bright and readable in dark mode, without affecting light mode. */
+body.dark-mode .education-item .degree,
+body.dark-mode .about-content .lead {
+    color: #e0e0e0; /* A bright, standard light grey for text */
+}
