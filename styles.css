@@ -2826,13 +2826,27 @@ body.dark-mode .university {
     color: #a0a0a0 !important;
 }
 
-/* =============================================== */
-/* Dark Mode Readability Fix for Dark Blue Text */
-/* =============================================== */
-
 /* This makes the degree title and the lead text in the 'About Me'
    section bright and readable in dark mode, without affecting light mode. */
 body.dark-mode .education-item .degree,
 body.dark-mode .about-content .lead {
-    color: #e0e0e0; /* A bright, standard light grey for text */
+    color: #e0e0e0;
+}
+
+/* This makes the icons in the 'Research Interests' and
+   similar lists a brighter, more readable blue in dark mode. */
+body.dark-mode .specializations .fas,
+body.dark-mode .academic-info .fas {
+    color: #58a6ff !important;
+}
+
+/* This makes the secondary/descriptive text (like university names,
+   department names, and timeline details) brighter and more readable
+   in dark mode. */
+body.dark-mode .education-item .university,
+body.dark-mode .timeline-content p,
+body.dark-mode .timeline-content h6,
+body.dark-mode .experience-details li,
+body.dark-mode .academic-info p {
+    color: #e0e0e0;
 }
