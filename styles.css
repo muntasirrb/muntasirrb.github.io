@@ -2836,7 +2836,11 @@ body.dark-mode .about-content .lead {
 /* This makes the icons in the 'Research Interests' and
    similar lists a brighter, more readable blue in dark mode. */
 body.dark-mode .specializations .fas,
-body.dark-mode .academic-info .fas {
+body.dark-mode .academic-info .fas,
+body.dark-mode .project-details i,
+body.dark-mode .publication-meta i,
+body.dark-mode .publication-item .authors i,
+body.dark-mode .publication-item .venue i {
     color: #58a6ff !important;
 }
 
