@@ -2854,3 +2854,29 @@ body.dark-mode .experience-details li,
 body.dark-mode .academic-info p {
     color: #e0e0e0;
 }
+
+/* =============================================== */
+/* Custom Styles for Education Section Logos */
+/* =============================================== */
+
+/* This sets up the positioning context for the logo */
+.education-card .card-body {
+    position: relative;
+}
+
+/* This styles the logo itself */
+.education-logo {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 50px;  /* You can adjust this size */
+    height: auto;
+    opacity: 0.08; /* Makes the logo a subtle watermark */
+    pointer-events: none; /* Prevents the logo from being clickable */
+}
+
+/* Dark mode adjustment for the logo */
+body.dark-mode .education-logo {
+    opacity: 0.1; /* Slightly more visible on dark backgrounds */
+    filter: invert(1) grayscale(100%) brightness(1.5); /* Makes the SVG white */
+}
