@@ -2862,7 +2862,7 @@ body.dark-mode .academic-info p {
 .education-logo {
     width: 50px;
     height: auto;
-    opacity: 0.6; /* A bit more visible now that it's part of the flow */
+    opacity: 1.0; /* A bit more visible now that it's part of the flow */
     margin-bottom: 1rem; /* Space between logo and the text below */
 }
 
