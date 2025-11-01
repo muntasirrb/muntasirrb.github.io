@@ -2897,3 +2897,9 @@ body.dark-mode .course-chip {
     background-color: #2a3a50; /* A darker blue background */
     color: #80baff; /* Lighter blue text */
 }
+
+main .lead {
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: #0d6efd;
+}
