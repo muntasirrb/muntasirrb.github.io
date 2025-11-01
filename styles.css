@@ -2899,7 +2899,11 @@ body.dark-mode .course-chip {
 }
 
 main .lead {
-    font-size: 1.25rem;
+    font-size: 1.20rem;
     font-weight: 400;
-    color: #0d6efd;
+    color: var(--secondary-color);
+}
+
+body.dark-mode main .lead {
+    color: #e0e0e0 !important; /* The correct bright text color */
 }
