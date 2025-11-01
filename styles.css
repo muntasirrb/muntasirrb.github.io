@@ -334,7 +334,7 @@ h2::after {
 }
 
 .about-content .lead {
-    font-size: 1.2rem;
+    font-size: 1.15rem;
     margin-bottom: 1.5rem;
     color: var(--secondary-color);
 }
