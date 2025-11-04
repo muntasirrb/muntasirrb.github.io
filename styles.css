@@ -2907,7 +2907,3 @@ main .lead {
 body.dark-mode main .lead {
     color: #e0e0e0 !important; /* The correct bright text color */
 }
-
-.social-btn.linkedin {
-    background-color: #0077B5; /* Official LinkedIn Blue */
-}
