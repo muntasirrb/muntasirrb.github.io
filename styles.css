@@ -1156,6 +1156,35 @@ h2::after {
     color: white;
 }
 
+.social-btn.bracu {
+    color: #0b2c5f;
+    border-color: #0b2c5f;
+}
+
+.social-btn.bracu:hover {
+    background-color: #0b2c5f;
+    color: white;
+}
+
+.social-btn .social-logo {
+    height: 1.4em;
+    width: auto;
+    background-color: white;
+    border-radius: 4px;
+    padding: 2px;
+}
+
+body.dark-mode .social-btn.bracu {
+    color: #8fb3e8;
+    border-color: #8fb3e8;
+}
+
+body.dark-mode .social-btn.bracu:hover {
+    background-color: #0b2c5f;
+    border-color: #0b2c5f;
+    color: white;
+}
+
 /* Footer */
 footer {
     background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
